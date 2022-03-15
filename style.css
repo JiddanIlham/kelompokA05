@@ -148,7 +148,9 @@ nav {
   transition: 0.2s ease-in-out;
 }
 .feature img {
-  width: 72px;
+  margin-top: 50px;
+  height: 135px;
+  width: 150px;
 }
 .feature:hover {
   transition: 0.2s ease-in-out;
