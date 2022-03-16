@@ -133,9 +133,20 @@ nav {
   font-weight: 400;
 }
 .explore_btn {
-  background: #ffc16a;
+  background: #ffc066;
   align-self: flex-start;
-  transition: width 2s;
+  transition: transform 2s;
+  position: absolute;
+}
+.explore_btn:hover{
+  transform:  translate(20px, 20px);
+}
+.shadow_btn{
+  background: #00aa9d;
+  height: 30px ;
+  width: 84px;
+  border: none;
+  position: absolute;
 }
 
 .header-right {
