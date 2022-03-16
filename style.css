@@ -93,6 +93,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #6682ff;
 }
 
 .container {
@@ -128,8 +129,34 @@ nav {
   font-weight: 400;
 }
 .explore_btn {
-  background: #ffc066;
+  background: #ffc16a;
   align-self: flex-start;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(31, 22, 22);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color:  #fddfb5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Features Section */
@@ -178,7 +205,7 @@ nav {
 /* Footer Section */
 
 footer {
-  background-color: #fff0db;
+  background-color: #6682ff;
 }
 
 .footer_container {
